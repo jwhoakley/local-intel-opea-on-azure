@@ -1,13 +1,13 @@
 variable "location" {
   description = "Azure region"
   type        = string
-  default     = "eastus"
+  default     = "uksouth"
 }
 
 variable "cosmosdb_account_location" {
   description = "Cosmos DB account Location"
   type        = string
-  default     = "westus"
+  default     = "uksouth"
 }
 
 variable "cluster_name" {
@@ -36,7 +36,7 @@ variable "subscription_id" {
 variable "os_disk_size_gb" {
   description = "OS disk size in GB for nodes"
   type        = number
-  default     = 50
+  default     = 100
 }
 
 variable "node_pool_type" {
