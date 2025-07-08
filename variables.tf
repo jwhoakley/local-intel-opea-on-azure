@@ -13,7 +13,7 @@ variable "cosmosdb_account_location" {
 variable "cluster_name" {
   description = "AKS cluster name"
   type        = string
-  default     = "opea aks cluster"
+  default     = "opea-aks"
 }
 
 variable "kubernetes_version" {
